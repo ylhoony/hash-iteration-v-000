@@ -9,6 +9,6 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.select do |key, value|
-    key == suite_a && value.chr == "A"
+    key == "suite_a" && value.chr == "A"
   end
 end
